@@ -26,10 +26,12 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-checkmate
     - r-registry >=0.5
     - r-slam
   run:
     - r-base
+    - r-checkmate
     - r-registry >=0.5
     - r-slam
 

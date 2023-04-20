@@ -1,11 +1,11 @@
-About r-roi
-===========
+About r-roi-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-roi-feedstock/blob/main/LICENSE.txt)
 
 Home: http://roi.r-forge.r-project.org/, https://r-forge.r-project.org/projects/roi/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-roi-feedstock/blob/main/LICENSE.txt)
 
 Summary: The R Optimization Infrastructure ('ROI') <doi:10.18637/jss.v094.i15> is a sophisticated framework for handling optimization problems in R. Additional information can be found on the 'ROI' homepage <http://roi.r-forge.r-project.org/>.
 

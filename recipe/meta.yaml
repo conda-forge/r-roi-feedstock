@@ -1,4 +1,4 @@
-{% set version = "1.0-1" %}
+{% set version = "1.0-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ROI_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ROI/ROI_{{ version }}.tar.gz
-  sha256: d4ff143304f1422ecc455eb1a00896530193c1a227ed7f3e9da2baa95d921616
+  sha256: 3e884b711aa0519b6d416f924795b57ebb073ab6f9cfcc3410ed15d92f20197d
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
